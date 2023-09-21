@@ -67,33 +67,83 @@
     }
   ],
   "placeholders": [
-    { "placeholder": "2-3" },
-    { "placeholder": "3-4" },
-    { "placeholder": "1-1" },
-    { "placeholder": "2-1" },
-    { "placeholder": "4-3" },
-    { "placeholder": "3-2" },
-    { "placeholder": "16-9" },
-    { "placeholder": "4-2" },
-    { "placeholder": "66" },
-    { "placeholder": "33" },
-    { "placeholder": "21-9" },
-    { "placeholder": "30" },
-    { "placeholder": "105" },
-    { "placeholder": "AR_SOCIAL_4" },
-    { "placeholder": "AR_SOCIAL_6" },
-    { "placeholder": "bg-light" }
+    {
+      "placeholder": "2-3"
+    },
+    {
+      "placeholder": "3-4"
+    },
+    {
+      "placeholder": "1-1"
+    },
+    {
+      "placeholder": "2-1"
+    },
+    {
+      "placeholder": "4-3"
+    },
+    {
+      "placeholder": "3-2"
+    },
+    {
+      "placeholder": "16-9"
+    },
+    {
+      "placeholder": "4-2"
+    },
+    {
+      "placeholder": "66"
+    },
+    {
+      "placeholder": "33"
+    },
+    {
+      "placeholder": "21-9"
+    },
+    {
+      "placeholder": "30"
+    },
+    {
+      "placeholder": "105"
+    },
+    {
+      "placeholder": "AR_SOCIAL_4"
+    },
+    {
+      "placeholder": "AR_SOCIAL_6"
+    },
+    {
+      "placeholder": "bg-light"
+    }
   ],
   "ratios": [
-    { "ratio": "2-3" },
-    { "ratio": "3-4" },
-    { "ratio": "1-1" },
-    { "ratio": "2-1" },
-    { "ratio": "4-3" },
-    { "ratio": "3-2" },
-    { "ratio": "16-9" },
-    { "ratio": "4-2" },
-    { "ratio": "21-9" }
+    {
+      "ratio": "2-3"
+    },
+    {
+      "ratio": "3-4"
+    },
+    {
+      "ratio": "1-1"
+    },
+    {
+      "ratio": "2-1"
+    },
+    {
+      "ratio": "4-3"
+    },
+    {
+      "ratio": "3-2"
+    },
+    {
+      "ratio": "16-9"
+    },
+    {
+      "ratio": "4-2"
+    },
+    {
+      "ratio": "21-9"
+    }
   ],
   "coloresPrimarios": [
     {
@@ -293,24 +343,167 @@
     }
   ],
   "ButtonType": [
-    { "class": "btn-primary" },
-    { "class": "btn-secondary" },
-    { "class": "btn-limited" },
-    { "class": "btn-feel" },
-    { "class": "btn-blue" },
-    { "class": "btn-trans" },
-    { "class": "btn-secondary-feel" },
-    { "class": "btn-phantom" },
-    { "class": "btn-clear" },
-    { "class": "btn-text" },
-    { "class": "link-raw" },
-    { "class": "link-line" }
+    {
+      "class": "btn-primary"
+    },
+    {
+      "class": "btn-secondary"
+    },
+    {
+      "class": "btn-limited"
+    },
+    {
+      "class": "btn-feel"
+    },
+    {
+      "class": "btn-blue"
+    },
+    {
+      "class": "btn-trans"
+    },
+    {
+      "class": "btn-secondary-feel"
+    },
+    {
+      "class": "link-raw"
+    },
+    {
+      "class": "link-line"
+    }
   ],
   "ButtonSize": [
-    { "size": "btn--mini" },
-    { "size": "btn--small" },
-    { "size": "btn--medium" },
-    { "size": "btn--large" },
-    { "size": "btn--full" }
+    {
+      "size": "btn--mini"
+    },
+    {
+      "size": "btn--small"
+    },
+    {
+      "size": "btn--medium"
+    },
+    {
+      "size": "btn--large"
+    },
+    {
+      "size": "btn--full"
+    }
+  ],
+  "Helpers": [
+    {
+      "name": ".bg-cover",
+      "description": "Imagen centrada al medio con cover"
+    },
+    {
+      "name": "strong",
+      "description": "Font family bold"
+    },
+    {
+      "name": ".border-1",
+      "description": "Border 1px gris corporativo"
+    },
+    {
+      "name": ".border-t",
+      "description": "Border top 1px gris corporativo"
+    },
+    {
+      "name": ".border-b",
+      "description": "Border bottom 1px gris corporativo"
+    },
+    {
+      "name": ".flex-vcenter",
+      "description": "centrado vertical, incluso si tenemos iconos"
+    },
+    {
+      "name": ".ov-scroll",
+      "description": "scroll con touch"
+    },
+    {
+      "name": ".scrollbar",
+      "description": "cambiamos el background"
+    },
+    {
+      "name": ".ov-custom",
+      "description": "scroll personalizable"
+    },
+    {
+      "name": ".cursor-pointer",
+      "description": "Un cursor"
+    },
+    {
+      "name": ".svg-iflex",
+      "description": "descripcion"
+    },
+    {
+      "name": ".svg-inline",
+      "description": "descripcion"
+    },
+    {
+      "name": ".hr",
+      "description": "línea normal"
+    },
+    {
+      "name": ".only-mobile",
+      "description": "Visible Sólo en mobile"
+    },
+    {
+      "name": ".only-mobile-flex",
+      "description": "Flex en mobile"
+    },
+    {
+      "name": ".only-desktop",
+      "description": "Visible Sólo en desktop a partir de sm"
+    },
+    {
+      "name": ".only-desktop-flex",
+      "description": "Flex en desktop a partir de sm"
+    },
+    {
+      "name": ".ttu",
+      "description": "TRANSFORMACIÓN A MAYÚSCULAS EN AQUELLOS PAÍSES QUE SEA POSIBLE"
+    },
+    {
+      "name": ".video-cover",
+      "description": "Posicionamiento mediante absolutos 50%"
+    },
+    {
+      "name": ".is-through",
+      "description": "tachado de texto"
+    },
+    {
+      "name": ".bg-dark-grey",
+      "description": "Color de fondo dark-grey"
+    },
+    {
+      "name": ".bg-middle-grey",
+      "description": "Color de fondo middle-grey"
+    },
+    {
+      "name": ".bg-light-grey",
+      "description": "Color de fondo light-grey"
+    },
+    {
+      "name": ".bg-primary",
+      "description": "Color de fondo primary"
+    },
+    {
+      "name": ".bg-error",
+      "description": "Color de fondo error"
+    },
+    {
+      "name": ".bg-info",
+      "description": "Color de fondo info"
+    },
+    {
+      "name": ".bg-success",
+      "description": "Color de fondo success"
+    },
+    {
+      "name": ".bg-warning",
+      "description": "Color de fondo warning"
+    },
+    {
+      "name": ".bg-feel",
+      "description": "Color de fondo feel"
+    }
   ]
 }

@@ -5854,3 +5854,14 @@ pre[class*=language-] {
 .guide-colors:nth-child(4n) {
   margin-right: 0;
 }
+
+.doc-table {
+  display: flex;
+  gap: 16px;
+  height: 30px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 8px;
+}
+.doc-table div {
+  min-width: 120px;
+}

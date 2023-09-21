@@ -18799,6 +18799,17 @@ pre[class*=language-] {
   margin-right: 0;
 }
 
+.doc-table {
+  display: flex;
+  gap: 16px;
+  height: 30px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 8px;
+}
+.doc-table div {
+  min-width: 120px;
+}
+
 header {
   position: fixed;
   top: 0;
