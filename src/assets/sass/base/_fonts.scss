@@ -1,11 +1,5 @@
 
 
-@font-face {
-  font-family: "mdserif";
-  src: url("/assets/fonts/mdserif/mdserif-Black.woff2") format("woff2"),
-      url("/assets/fonts/mdserif/mdserif-Black.woff") format("woff");
-}
-
 
 
 
@@ -22,6 +16,15 @@
   src: url("/assets/fonts/dutti/dutti-daily-regular.woff2") format("woff2"),
       url("/assets/fonts/dutti/dutti-daily-regular.woff") format("woff");
 }
+
+@font-face {
+  font-display: swap;
+  font-family: "dutti-daily-semibold";
+  src: url("/assets/fonts/dutti/dutti-daily-semibold.woff2") format("woff2"),
+      url("/assets/fonts/dutti/dutti-daily-semibold.woff") format("woff");
+}
+
+
 @font-face {
   font-display: swap;
   font-family: "dutti-daily-bold";
@@ -34,4 +37,16 @@
   font-family: "dutti-extended-regular";
   src: url("/assets/fonts/dutti/dutti-extended-regular.woff2") format("woff2"),
       url("/assets/fonts/dutti/dutti-extended-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "mdserif";
+  src: url("/assets/fonts/mdserif/mdserif-Black.woff2") format("woff2"),
+      url("/assets/fonts/mdserif/mdserif-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "mdserif";
+  src: url("/assets/fonts/mdserif/mdserif-Black.woff2") format("woff2"),
+      url("/assets/fonts/mdserif/mdserif-Black.woff") format("woff");
 }

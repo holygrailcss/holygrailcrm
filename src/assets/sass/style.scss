@@ -76,36 +76,11 @@ a {
 
 
 
-.ttc {
-  text-transform: capitalize;
-}
-.container-full {
-  max-width: 1600px;
-}
-.product-tag {
-  font-family: "dutti-daily-bold";
-  font-size: 14px;
-  color: #292929;
-  letter-spacing: 0;
-  line-height: 16px;
-}
-.template-name {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  padding: 0 8px;
+.form-prefix{
 
-  background-color: #a1bfa0;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-
+  display: flex;
+  gap: 16px;
+  width: 100%;
 }
-.grid-product, ul {
-  position: relative;
-}
-
-
 
 

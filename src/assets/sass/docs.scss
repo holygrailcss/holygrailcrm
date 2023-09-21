@@ -1606,5 +1606,35 @@ pre[class*='language-'] {
 }
 .filashead{
   background-color: #000;
-  color: #fff;
+  color: #fff;   
+}
+
+.guide-colors-wrap {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 16px;
+}
+.guide-colors {
+
+  margin-right: 16px;
+  margin-bottom: 16px;
+
+}
+.guide-colors .guide-colors-bg {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.guide-colors .guide-colors-text {
+  padding-top: 10px;
+  text-align: left;
+  width: 100%;
+  float: left;
+  font-weight: 100;
+}
+.guide-colors .guide-colors-text span {
+  opacity: 0.3;
+}
+.guide-colors:nth-child(4n) {
+  margin-right: 0;
 }
