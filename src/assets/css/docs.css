@@ -5851,10 +5851,6 @@ pre[class*=language-] {
   opacity: 0.3;
 }
 
-.guide-colors:nth-child(4n) {
-  margin-right: 0;
-}
-
 .doc-table {
   display: flex;
   gap: 16px;
